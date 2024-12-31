@@ -1,0 +1,122 @@
+baseURL: 'https://matejelias.cz/'
+languageCode: 'en-us'
+title: 'Matej Elias'
+theme: 'PaperMod'
+paginate: 5
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  description: "Porftolio and personal blog of Matej Elias"
+  keywords: [Blog, Portfolio, Graphics, Programming, IT, Research, Vulkan]
+  author: Me
+
+
+  homeInfoParams:
+    Title: Hi there 👋
+    Content: I am an IT researcher and graphics programming entusiast. I am currently working on my own graphics engine and supporting tools. I am also a student at the Faculty of Electrical Engineering and Informatics at the Technical University of Ostrava.
+
+  socialIcons: 
+    - name: "GitHub"
+      url: "https://github.com/elliahu"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/matejelias/"
+
+  fuseOpts: # For search
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+  
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: true
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: true
+
+  taxonomies:
+    category: categories
+    tag: tags
+
+  label:
+    text: "Matej Elias"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+  
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  editPost:
+    URL: "https://github.com/elliahu/elliahu.github.io/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+menu:
+  main:
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 1
+    - identifier: projects
+      name: Projects
+      url: categories/project/
+      weight: 2
+    
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 4
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 5
+    
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+
+markup:
+  highlight:
+    noClasses: false
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
