@@ -2,7 +2,6 @@ baseURL: 'https://matejelias.cz/'
 languageCode: 'en-us'
 title: 'Matej Elias'
 theme: 'PaperMod'
-paginate: 5
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -22,7 +21,10 @@ params:
 
   homeInfoParams:
     Title: Hi there 👋
-    Content: I am an IT researcher and graphics programming entusiast. I am currently working on my own graphics engine and supporting tools. I am also a student at the Faculty of Electrical Engineering and Informatics at the Technical University of Ostrava.
+    Content: "I am **Matěj Eliáš**, an IT researcher and graphics programming entusiast. 
+    I am also a masters student at the Faculty of Electrical Engineering and Computer Science at the Technical University of Ostrava. 
+    I am currently working on my own [graphics engine](https://github.com/elliahu/HammockEngine) and [supporting tools](https://github.com/elliahu/VulkanSurfer). 
+    You can see my [projects](projects/) or read my blog posts bellow. Live long and prosper 🖖"
 
   socialIcons: 
     - name: "GitHub"
@@ -40,7 +42,7 @@ params:
     # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
   
-  ShowReadingTime: true
+  ShowReadingTime: false
   ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
@@ -55,6 +57,9 @@ params:
   hideSummary: false
   showtoc: true
   tocopen: true
+
+  mainSections:
+    - posts
 
   taxonomies:
     category: categories
@@ -86,10 +91,7 @@ params:
 
 menu:
   main:
-    - identifier: search
-      name: Search
-      url: /search
-      weight: 1
+    
     - identifier: projects
       name: Projects
       url: categories/project/
@@ -103,6 +105,10 @@ menu:
       name: Tags
       url: /tags/
       weight: 5
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 6
     
 
 outputs:

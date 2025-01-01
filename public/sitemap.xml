@@ -3,29 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/projects/hammock/</loc>
-    <lastmod>2024-12-31T15:34:31+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/surfer/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/c&#43;&#43;/</loc>
-    <lastmod>2024-12-31T15:34:31+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-12-31T15:34:31+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-12-31T15:34:31+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/project/</loc>
-    <lastmod>2024-12-31T15:34:31+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/</loc>
-    <lastmod>2024-12-31T15:34:31+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-12-31T15:34:31+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/vulkan/</loc>
-    <lastmod>2024-12-31T15:34:31+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/vulkan/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/win32/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/x11/</loc>
   </url>
 </urlset>
