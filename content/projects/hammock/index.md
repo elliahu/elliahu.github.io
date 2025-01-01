@@ -6,7 +6,7 @@ tags:
 weight: 1
 categories:
   - project
-author: Me
+author: Matej Elias
 draft: false
 title: "Hammock - Vulkan graphics engine"
 ShowToc: true
@@ -28,6 +28,9 @@ cover:
   image: hero.png
   alt: Hammock engine logo
   relative: false
+editPost:
+    URL: "https://github.com/elliahu/HammockEngine"
+    Text: "Source code" # edit text
 ---
 
 Custom real-time physically-based graphics engine using c++23 and Vulkan - the next generation graphics API.

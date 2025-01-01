@@ -3,7 +3,7 @@
 tags:
 weight: 1
 categories:
-author: Me
+author: Matej Elias
 draft: false
 title: "About me"
 ShowToc: true

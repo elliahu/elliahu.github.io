@@ -8,7 +8,7 @@ tags:
 weight: 2
 categories:
   - project
-author: Me
+author: Matej Elias
 draft: false
 title: "VulkanSurfer - minimal window library for Vulkan"
 ShowToc: true
@@ -26,6 +26,9 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: false
+editPost:
+    URL: "https://github.com/elliahu/VulkanSurfer"
+    Text: "Source code" # edit text
 ---
 This [project](https://github.com/elliahu/VulkanSurfer) aims to make creation of a window with a Vulkan surface and basic event handling as simple and portable as possible. If you just need to open a simple window with basing event/input handling for your Vulkan projects, this is the tool you need. Library is header-only single file and there is no need for implementation files. Just drop it into you project.
 
