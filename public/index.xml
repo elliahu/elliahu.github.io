@@ -8,6 +8,13 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>IT researcher and graphics programming entusiast</description>
+    </item>
+    <item>
       <title>Hammock - Vulkan graphics engine</title>
       <link>http://localhost:1313/projects/hammock/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

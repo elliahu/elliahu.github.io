@@ -95,6 +95,11 @@ menu:
     - identifier: projects
       name: Projects
       url: categories/project/
+      weight: 1
+
+    - identifier: about
+      name: About me
+      url: about
       weight: 2
     
     - identifier: categories
