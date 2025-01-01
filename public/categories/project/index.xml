@@ -7,19 +7,5 @@
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/categories/project/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hammock - Vulkan graphics engine</title>
-      <link>http://localhost:1313/projects/hammock/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/hammock/</guid>
-      <description>Real-time physically-based graphics engine in Vulkan, c&#43;&#43;23</description>
-    </item>
-    <item>
-      <title>VulkanSurfer - minimal window library for Vulkan</title>
-      <link>http://localhost:1313/projects/surfer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/surfer/</guid>
-      <description>A minimal cross-platform object-oriented c&#43;&#43;11 header only window library for Vulkan.</description>
-    </item>
   </channel>
 </rss>

@@ -5,7 +5,7 @@ tags:
   - c++
 weight: 1
 categories:
-  - project
+  - projects
 author: Matej Elias
 draft: false
 title: "Hammock - Vulkan graphics engine"

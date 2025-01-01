@@ -7,7 +7,7 @@ tags:
   - X11
 weight: 2
 categories:
-  - project
+  - projects
 author: Matej Elias
 draft: false
 title: "VulkanSurfer - minimal window library for Vulkan"
