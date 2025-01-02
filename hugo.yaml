@@ -24,7 +24,7 @@ params:
     Content: "I am **Matěj Eliáš**, an IT researcher and graphics programming entusiast. 
     I am also a masters student at the Faculty of Electrical Engineering and Computer Science at the Technical University of Ostrava. 
     I am currently working on my own [graphics engine](https://github.com/elliahu/HammockEngine) and [supporting tools](https://github.com/elliahu/VulkanSurfer). 
-    You can see my [projects](projects/) or read my blog posts bellow. Live long and prosper 🖖"
+    You can see my [projects](projects/) or read my blog posts bellow."
 
   socialIcons: 
     - name: "GitHub"
