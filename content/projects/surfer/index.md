@@ -39,7 +39,7 @@ When I looked for lightweight, single-header alternatives, I was surprised to fi
 
 What started as a utility extracted from my renderer has evolved into a portable, single-header window library designed specifically for Vulkan. It’s simple, lightweight, and focuses on exactly what’s needed—nothing more, nothing less.
 
-This [project](https://github.com/elliahu/VulkanSurfer) aims to make creation of a window with a Vulkan surface and basic event handling as simple and portable as possible. If you just need to open a simple window with basing event/input handling for your Vulkan projects, this is the tool you need. Library is header-only single file and there is no need for implementation files. Just drop it into you project.
+This [project](https://github.com/elliahu/VulkanSurfer) aims to make creation of a window with a Vulkan surface and basic event handling as simple and portable as possible. If you just need a window with Vulkan surface and basic event handling, this is the tool you need. Library is header-only single file and there is no need for implementation files. Just drop it into you project.
 
 ## Simple API
 The window API was made so it is as simple as possible. Open a window and create a VkSurface in just two lines:
