@@ -89,7 +89,7 @@ menu:
     
     - identifier: projects
       name: Projects
-      url: categories/project/
+      url: projects/
       weight: 1
 
     - identifier: about
