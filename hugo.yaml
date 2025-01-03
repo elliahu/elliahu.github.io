@@ -20,8 +20,8 @@ params:
 
 
   homeInfoParams:
-    Title: Hi there 👋
-    Content: "I am **Matěj Eliáš**, an IT researcher, graphics programming entusiast and masters student of digital image processing and computer graphics. 
+    Title: Hi there 👋 
+    Content: "I am **Matěj Eliáš**, an *IT researcher*, *graphics programming enthusiast*, and master's *student* of digital image processing and computer graphics.  
     Currently, I am working on my own [graphics engine](https://github.com/elliahu/HammockEngine) and supporting tools such as [VulkanSurfer](https://github.com/elliahu/VulkanSurfer). 
     You can see my [projects](projects/) or read my posts bellow."
 
@@ -48,6 +48,7 @@ params:
   ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
   UseHugoToc: false
   disableSpecial1stPost: false
   disableScrollToTop: false
@@ -56,13 +57,15 @@ params:
   hideSummary: false
   showtoc: true
   tocopen: true
-
+  
   mainSections:
-    - posts
+      - posts
+  
 
   taxonomies:
     category: categories
     tag: tags
+    series: series
 
   label:
     text: "Matej Elias"
@@ -85,7 +88,6 @@ params:
 
 menu:
   main:
-    
     - identifier: projects
       name: Projects
       url: projects/
@@ -104,10 +106,12 @@ menu:
       name: Tags
       url: /tags/
       weight: 5
+
+
     - identifier: search
       name: Search
       url: /search
-      weight: 6
+      weight: 7
     
 
 outputs:
