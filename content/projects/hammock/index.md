@@ -29,7 +29,7 @@ cover:
   alt: Hammock engine logo
   relative: false
 editPost:
-    URL: "https://github.com/elliahu/HammockEngine"
+    URL: "https://github.com/elliahu/hammock"
     Text: "Source code" # edit text
 ---
 
@@ -46,7 +46,7 @@ I started my graphics programming journey with OpenGL, learning the basics and b
 
 The project is still a work in progress—there are parts of the code that need serious rewrites—but every day it gets better. And to me, that’s the exciting part: the process of creating, learning, and improving.
 
-You can find the source code and more information in the [official repository](https://github.com/elliahu/HammockEngine).
+You can find the source code and more information in the [official repository](https://github.com/elliahu/hammock).
 
 ## Screenshots
 Here you can screenshots from some of my rendering endeavors using the Hammock.
