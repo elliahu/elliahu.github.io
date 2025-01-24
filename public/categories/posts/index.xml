@@ -4,16 +4,16 @@
     <title>Posts on Matej Elias</title>
     <link>http://localhost:1313/categories/posts/</link>
     <description>Recent content in Posts on Matej Elias</description>
-    <generator>Hugo -- 0.140.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Jan 2025 10:00:00 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Volumetric rendering</title>
-      <link>http://localhost:1313/posts/volumetric_rendering/</link>
+      <title>Dynamic rendering in Vulkan 1.3</title>
+      <link>http://localhost:1313/posts/vulkan-dynamic-rendering/</link>
       <pubDate>Thu, 02 Jan 2025 10:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/posts/volumetric_rendering/</guid>
-      <description>Using raymarching to render volumetric data stored as a 3D texture</description>
+      <guid>http://localhost:1313/posts/vulkan-dynamic-rendering/</guid>
+      <description>Exploring dynamic rendering feature of Vulkan 1.3 which aims to simplify rendering by removing need for VkRenderPass and VkFramebuffer objects</description>
     </item>
   </channel>
 </rss>

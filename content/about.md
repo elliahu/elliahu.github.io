@@ -22,7 +22,8 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: false
 ---
-I’ve always played video games a little differently. While most people are busy saving the world or fighting off enemies, I’m sitting there wondering, how do they make this look so good? Like, how do they turn a bunch of code into moss so realistic it makes you want to touch it? These questions didn’t just cross my mind—they took over my life.
+## My computer graphics journey
+I’ve always enjoyed playing video games, but not quite like everybody else. While most people are busy saving the world or fighting off enemies, I’m sitting there wondering, how do they make this look so good? Like, how do they turn a bunch of code into moss so realistic it makes you want to touch it? These questions didn’t just cross my mind—they took over my life.
 
 Now, as a software engineer, I’ve made it my mission to understand how computer graphics actually work. Shaders, rendering pipelines, real-time lighting—it’s like a giant puzzle, and I can’t resist taking it apart to see how it fits together. Honestly, building these systems is just as fun (if not more) than watching the final visuals on the screen.
 
