@@ -3,7 +3,7 @@
 tags:
   - vulkan
   - c++
-weight: 1
+weight: 10
 categories:
   - projects
 author: Matej Elias
@@ -28,6 +28,7 @@ cover:
   image: hero.png
   alt: Hammock engine logo
   relative: false
+  hiddenInList: true
 editPost:
     URL: "https://github.com/elliahu/hammock"
     Text: "Source code" # edit text

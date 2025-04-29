@@ -4,9 +4,16 @@
     <title>Projects on Matej Elias</title>
     <link>http://localhost:1313/projects/</link>
     <description>Recent content in Projects on Matej Elias</description>
-    <generator>Hugo -- 0.142.0</generator>
+    <generator>Hugo -- 0.147.0</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Realistic atmosphere rendering</title>
+      <link>http://localhost:1313/projects/atmosphere/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/atmosphere/</guid>
+      <description>Physically-based atmosphere render with multiple scattering, aerial perspective, volumetric clouds and god rays</description>
+    </item>
     <item>
       <title>Hammock - Vulkan graphics engine</title>
       <link>http://localhost:1313/projects/hammock/</link>

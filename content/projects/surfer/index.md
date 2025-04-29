@@ -5,7 +5,7 @@ tags:
   - c++
   - Win32
   - X11
-weight: 2
+weight: 10
 categories:
   - projects
 author: Matej Elias
